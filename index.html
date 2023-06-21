@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./src/css/styles.css">
-  <script src="./src/js/script.js"></script>
+  <script src="./src/js/script.js" defer></script>
 </head>
 
 <body>
@@ -17,11 +17,11 @@
     <div class="container flex">
       <h1 id="clock-title">Relógio Digital</h1>
       <div class="box-clock flex">
-        <span class="hours">00</span>
+        <span class="hours" id="jsHours">00</span>
         <span class="divider">:</span>
-        <span class="minutes">00</span>
+        <span class="minutes" id="jsMinutes">00</span>
         <span class="divider">:</span>
-        <span class="seconds">00</span>
+        <span class="seconds" id="jsSeconds">00</span>
       </div>
     </div>
   </main>

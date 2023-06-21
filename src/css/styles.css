@@ -27,6 +27,7 @@ main {
   margin-bottom: 5rem;
   font-size: 4rem;
   color: #ffffff;
+  text-align: center;
 }
 .box-clock {
   font-size: 4rem;
@@ -40,4 +41,13 @@ main {
 }
 .box-clock span {
   margin-right: 0.5rem;
+}
+
+@media (max-width: 360px) {
+  .box-clock {
+    font-size: 2.3rem;
+  }
+  #clock-title {
+    font-size: 2.5rem;
+  }
 }
