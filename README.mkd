@@ -1,0 +1,41 @@
+# Relógio Digital ⏱️
+
+Este é um projeto de um relógio digital simples, desenvolvido utilizando HTML, CSS e JavaScript. O relógio utiliza a função `new Date()` e o método `setInterval()` para exibir a hora atual.
+
+## Demonstração
+
+Você pode conferir uma demonstração do relógio digital [aqui](link-da-demo).
+
+## Estrutura do Projeto
+
+O projeto é dividido em três partes principais:
+
+1. **index.html**: Este arquivo contém a estrutura HTML básica do relógio digital.
+
+2. **style.css**: Neste arquivo, você encontrará os estilos CSS utilizados para a estilização do relógio.
+
+3. **script.js**: Este arquivo contém as funções JavaScript responsáveis por obter a hora atual utilizando `new Date()` e atualizar o relógio a cada segundo utilizando `setInterval()`.
+
+## Como Usar
+
+1. Faça o download dos arquivos do projeto.
+
+2. Abra o arquivo `index.html` em um navegador web.
+
+3. O relógio digital será exibido na página, mostrando a hora atual.
+
+## Personalização
+
+Você pode personalizar a aparência do relógio digital ajustando as propriedades CSS no arquivo `style.css`. Altere as cores, tamanhos e fontes de acordo com suas preferências.
+
+## Contribuindo
+
+Sinta-se à vontade para contribuir com melhorias para este projeto. Se você encontrar algum problema ou tiver alguma sugestão, abra uma issue ou envie um pull request.
+
+## Contato
+
+Se você tiver alguma dúvida ou quiser entrar em contato, você pode me encontrar em:
+
+- Website: [joaosbarbosa.com.br](joaosbarbosa.com.br)
+
+Obrigado por utilizar o relógio digital! Espero que seja útil para você.
